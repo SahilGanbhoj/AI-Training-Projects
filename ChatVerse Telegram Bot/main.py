@@ -10,7 +10,7 @@ bot = Bot(token='6361784453:AAGkNmvi5dBhzP3_wNc2QaQA_CouM_yDeZA')
 
 dp = Dispatcher(bot)
 
-openai.api_key = os.environ['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']
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 example()
 

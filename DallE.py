@@ -6,7 +6,7 @@ from flask import Flask, render_template_string, request
 
 
 
-openai.api_key = os.environ['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']
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 
 

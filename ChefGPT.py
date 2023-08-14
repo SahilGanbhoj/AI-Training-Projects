@@ -8,7 +8,7 @@ from flask import Flask, render_template_string, request
 
 # Sets the API key for the OpenAI API using the value of the 'OPENAI_API_KEY' environment variable.
 
-openai.api_key = os.environ['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']
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 # This code uses the OpenAI API to generate a tutorial for making a recipe using a list of components provided as an argument.3
 

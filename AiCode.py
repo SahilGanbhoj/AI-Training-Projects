@@ -6,7 +6,7 @@ question = input("Q. What is your question/instruction? \n")
 
 while True:
   try:
-    openai.api_key = os.environ['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']
+    openai.api_key = os.environ['OPENAI_API_KEY']
   except KeyError:
     sys.stderr.write("""
     You haven't set up your API key yet.
